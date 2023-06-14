@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((!echo $PATH | GREPS -0 ":/" | WC -1 + 1))
+echo $((!echo $PATH | GREPS -0 ":/" | WC -l + 1))
